@@ -86,11 +86,11 @@ donate:
   enable: true
   # 微信打赏
   wechatpay:
-    qrcode: images/donate/wechatpayimg.png
+    qrcode: images/donate/wechatpay.png
     title: 微信支付
   # 支付宝打赏
   alipay: 
-    qrcode: images/donate/alipayimg.png 
+    qrcode: images/donate/alipay.png 
     title: 支付宝
 
 # Share
@@ -102,23 +102,23 @@ share:
 
 # Github
 github: 
-  username: cofess  # github username
+  username: zhouyj0213 # github username
 
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: valine  # 启用哪种评论系统
+  type: gitment  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan: 
     uid: 1783844 # enter youyan uid 
   livere:
     uid: # enter youyan uid 
   gitment:
-    githubID: 
-    repo: 
-    ClientID: 
-    ClientSecret: 
+    githubID: ZhouYJ0213
+    repo: ZhouYJ0213.github.io
+    ClientID: e40cfe19afdaf5067231
+    ClientSecret: a77435f916ac7eded0372006e0855e30f6494317
     lazy: false
   gitalk: # gitalk. https://gitalk.github.io/
     owner:  #必须. GitHub repository 所有者，可以是个人或者组织。
@@ -185,53 +185,49 @@ fb_app_id:
 # profile
 profile:
   enabled: true # Whether to show profile bar
-  avatar: images/avatar.jpg
+  avatar: images/avatar.jpeg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: ZhouYJ
-  author_title: Web Developer & Designer
+  author_title: Development & Operations
   author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  location: Swatow, China
+  follow: https://github.com/zhouyj0213
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
-      # facebook: /
-      # dribbble: /
-      behance: https://www.behance.net/cofess
+      github: https://github.com/zhouyj0213
+      weibo: http://weibo.com/
+      twitter: https://twitter.com/
+      facebook: /
+      dribbble: /
+      behance: https://www.behance.net/
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
     Git: ★★★☆☆
-    Gulp: ★★★☆☆
-    Javascript: ★★★☆☆
-    HTML+CSS: ★★★☆☆
-    Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
+    Ceph: ★★★☆☆
+    Python: ★★★☆☆
+    Shell: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
-  # My Personal Labels
+    Github: https://github.com/zhouyj0213
+    Blog: /
+    微博: http://weibo.com/
+    花瓣: http://huaban.com/
+    Behance: https://www.behance.net
+  # My Personal Label
   labels:
-    - 前端
-    - 前端开发
-    - 前端重构
-    - Web前端
-    - 网页重构
+    - 后端
+    - 后端开发
+    - 运维
+    - 运维开发
   # My Personal Works
   works:
-    name:
-      link: http://www.example.com
-      date: 2016
+    # name:
+    #   link: http://www.example.com
+    #   date: 2016
   # My Personal Projects
   projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+    # cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+    # cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
