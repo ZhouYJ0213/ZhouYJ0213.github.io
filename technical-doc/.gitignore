@@ -1,8 +1,8 @@
 .DS_Store
-._config.*.yaml
+_config.*.yml
 Thumbs.db
 db.json
 *.log
 node_modules/
 public/
-.deploy*/
+.deploy*
