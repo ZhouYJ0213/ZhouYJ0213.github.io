@@ -212,10 +212,10 @@ profile:
   # My Personal Links
   links:
     Github: https://github.com/zhouyj0213
-    Blog: /
-    微博: http://weibo.com/
-    花瓣: http://huaban.com/
-    Behance: https://www.behance.net
+    # Blog: /
+    # 微博: http://weibo.com/
+    # 花瓣: http://huaban.com/
+    # Behance: https://www.behance.net
   # My Personal Label
   labels:
     - 后端
